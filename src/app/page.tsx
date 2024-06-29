@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "EF Design | Yeni Nesil ve Modern Ajans",
+  description: "EF Design, modern ve yeni nesil bir ajanstır. Yenilikçi yaklaşımları ve çağdaş tasarım anlayışıyla öne çıkan bu ajans, müşterilerine dijital pazarlama, web tasarımı, marka danışmanlığı gibi hizmetler sunmayı hedefler. EF Design, teknolojiyi ve yaratıcılığı bir araya getirerek müşteri odaklı çözümler üretir ve iş ortaklarına yenilikçi projelerde destek verir.",
   // other metadata
 };
 
@@ -23,13 +23,13 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
+      {/* <Video /> */}
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
-      <Blog />
+      {/* <Pricing /> */}
+      {/* <Blog /> */}
       <Contact />
     </>
   );

@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="EF Design ile Dijital Dünyada Profesyonelce Bulunun"
+                paragraph="EF Design, dijital dünyada profesyonelce bulunmanızı sağlayan bir ajans olarak öne çıkar. Müşterilerine sunduğu yenilikçi çözümlerle, dijital pazarlama stratejilerini güçlendirir ve markaların dijital platformlarda etkili bir şekilde var olmalarını sağlar. EF Design, tecrübeli ekibiyle birlikte, modern tasarım anlayışı ve teknolojiyi kullanarak müşteri memnuniyetini en üst düzeye çıkarmayı amaçlar."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Premium Kalite" />
+                    <List text="Güvenilir Hizmet" />
+                    <List text="Hızlı İşleyiş" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Profesyonel Çözüm" />
+                    <List text="Size Özel Hizmet" />
+                    <List text="Hizmet Sonrası Destek" />
                   </div>
                 </div>
               </div>

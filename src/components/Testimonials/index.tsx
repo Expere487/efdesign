@@ -4,29 +4,83 @@ import SingleTestimonial from "./SingleTestimonial";
 
 const testimonialData: Testimonial[] = [
   {
-    id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    id: 0,
+    name: "Can Yılmaz",
+    designation: "Proje Yöneticisi",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "EF Design ile çalışmak gerçekten çok keyifliydi! Hem tasarım hem de hizmet kalitesi bakımından bizi çok memnun ettiler. Teşekkürler!",
+    image: "/images/testimonials/auth-01.png",
+    star: 5,
+  },
+  {
+    id: 1,
+    name: "Gamze Öztürk",
+    designation: "Pazarlama Direktörü",
+    content:
+      "EF Design, işimizin dijital yüzünü oluşturmamızda bize büyük destek sağladı. Profesyonel yaklaşımları ve hızlı geri dönüşleriyle çok etkileyici bir ajans!",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Emre Tekin",
+    designation: "İş Geliştirme Uzmanı",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Markamız için yaptıkları web tasarımı ve dijital strateji çalışmaları sayesinde EF Design'e minnettarız. Ekip çalışmalarından çok memnun kaldık.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Elif Kaya",
+    designation: "Kurumsal İletişim Sorumlusu",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "EF Design ile işbirliği yapmaktan dolayı çok mutluyuz. Hızlı ve etkili çözümleri sayesinde projemizi başarıyla tamamladık. Teşekkürler!",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 4,
+    name: "Burak Demirci",
+    designation: "Satış ve Pazarlama Müdürü",
+    content:
+      "Dijital pazarlama konusunda bize sağladıkları danışmanlık hizmetleriyle EF Design, işimizin büyümesine katkıda bulundu. Çok memnun kaldık.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 5,
+    name: "Sevgi Yıldız",
+    designation: "İçerik Yöneticisi",
+    content:
+      "EF Design ekibi, projemize verdikleri destek ve profesyonel yaklaşımları ile bizleri çok etkiledi. Güvenilir bir iş ortağı olduklarını kanıtladılar.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 6,
+    name: "Ali Gür",
+    designation: "Teknoloji Yöneticisi",
+    content:
+      "Web tasarımı ve SEO stratejilerinde bize sundukları çözümlerle EF Design, markamızın online varlığını güçlendirmemize yardımcı oldu. Çok teşekkürler!",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 7,
+    name: "Melis Arslan",
+    designation: "Finansal Analist",
+    content:
+      "EF Design'in hizmetlerinden çok memnun kaldık. İşlerini ne kadar ciddiye aldıklarını ve müşteri odaklı yaklaşımlarını takdirle karşılıyoruz.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 8,
+    name: "Hasan Çelik",
+    designation: "Operasyon Müdürü",
+    content:
+      "EF Design, bize sundukları yenilikçi dijital pazarlama çözümleri ile markamızın online görünürlüğünü artırdı. Son derece profesyonel bir ekip!",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +91,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="EF Design İçin Ne Dediler"
+          paragraph="Aşağıda EF Design en önemli müşterilernin bazılarının memnuniyetlerini dile getirdikleri yorumları inceleyebilirsiniz."
           center
         />
 

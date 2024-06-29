@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="EF Design Hakkında"
+        description="EF Design, dijital dünyada markaların etkili bir şekilde var olmasını sağlayan bir ajans olarak faaliyet göstermektedir. Müşteri odaklı yaklaşımı ve yenilikçi çözümleriyle tanınan EF Design, 5 yıldan fazla süredir sektörde hizmet vermektedir."
       />
       <AboutSectionOne />
       <AboutSectionTwo />

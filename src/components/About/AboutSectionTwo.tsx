@@ -28,29 +28,29 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Tasarlayalım
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Çalışmalarımıza sizin paylaştığınız brifler öncülüğünde başlarız. İlk aşamamız her zaman sizin kimliğinizi modern ve profesyonel bir şekilde dijital dünyada 
+                  var etmektir. Bu amaçla çıktığımız yolda ilk durağımız tasarımdır. Tasarımlarımızda kurumsal kimliğinizi, tarihinizi ve hizmetlerinizi kaynak ediniriz.
+                  Siz tasarımı onayladıktan sonra bir sonra ki aşama olan <mark className="bg-primary text-white">kodlamaya</mark> geçeriz.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Kodlayalım
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Kurumsal kimliğinizi, tarihinizi ve hizmetlerinizi baz aldığımız tasarımımız onaylandıktan sonra ki aşama kodlamadır. Bu aşamada tasarımınızı hızlıca kod dökeriz. Kodlamanın bir başka parçası
+                  ise işlevselliktir. Bu aşamada tamamlandığında <mark className="bg-primary text-white">yayınlamaya</mark> geçeriz.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Yayınlayalım
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  İlk iki aşama tamamlandıktan sonra ise artık projenize yayına alır ve sizin dijital dünyada ki varlığınız başlar.
                 </p>
               </div>
             </div>
